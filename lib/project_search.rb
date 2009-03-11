@@ -13,7 +13,7 @@ class ProjectSearch
   def search
     paths = case scope
       when "all" then
-        %w(app config lib test public)
+        %w(app config lib test public spec features)
       when "code" then
         Dir[File.join("app", "*")] - [File.join("app", "views")] + %w(config lib test)
       when "css" then
