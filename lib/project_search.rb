@@ -70,7 +70,7 @@ class ProjectSearch
   omitted, it defaults to "all". The supported scopes and their
   meanings are:
 
-  * "all": search app, config, lib, test, and public directories.
+  * "all": search app, config, lib, test, spec, features, and public directories.
   * "code": search app (except for app/views), config, lib, and
     test.
   * "css": search just the public/stylesheets directory.
